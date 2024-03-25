@@ -1,0 +1,21 @@
+.cont-img{
+    position: relative; /*Permite colocar elementos encima*/
+    text-align: center;
+    height: auto;
+    background-color: green;
+    min-height: calc(60vh - 100px);
+    
+}
+
+.text-sup{
+    position: absolute;/*va encima pues*/
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(red, 255, blue, 0.7);
+    /**/
+    font-size: 16px;
+    color: white;
+    mix-blend-mode: screen;
+}
